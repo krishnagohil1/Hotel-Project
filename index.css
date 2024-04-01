@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.ocean{
+    font-family: cursive;
+    color: #e8ad5f !important;
+    font-size: 25px !important;
+}
+.dropdownData{
+    background-color: white !important;
+    border: none !important;
+}
+.dropdownData a:hover{
+    color: #e8ad5f  !important;
+}
+.overdata{
+    color: white;
+}
+.overdata a:hover{
+    color: #e8ad5f !important;
+}
+.drophover{
+    color: black !important;
+}
+.drophover:hover{
+    color: white !important;
+}
+.navbar-toggler{
+    border: none !important;
+    color: #050404 !important;
+}
+.navbar-toggler-icon{
+    color: white !important;
+}
+.fa-bars-staggered :hover{
+    color: #e8ad5f !important;
+}
+.change_background{
+    background-color: white !important;
+}
+/* animation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    position: relative;
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s, background 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #fff;
+    background: #333;
+  }
+  
+  nav ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #333;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  
+  nav ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  nav ul li ul li {
+    display: block;
+    margin: 0;
+  }
+  
+  nav ul li ul li a {
+    color: #fff;
+    padding: 10px 15px;
+    transition: color 0.3s, background 0.3s;
+  }
+  
+  nav ul li ul li a:hover {
+    background: #555;
+  }
+  /* animation ocean */
+  .text-container {
+    text-align: center;
+  }
+  
+  .animated-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #e8ad5f, 0 0 20px #e8ad5f, 0 0 30px #e8ad5f, 0 0 40px #e8ad5f, 0 0 70px #e8ad5f, 0 0 80px #e8ad5f, 0 0 100px #e8ad5f, 0 0 150px #e8ad5f;
+    animation: neonGlow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes neonGlow {
+    0% {
+      text-shadow: 0 0 10px #e8ad5f, 0 0 20px #e8ad5f, 0 0 30px #e8ad5f, 0 0 40px #e8ad5f, 0 0 70px #e8ad5f, 0 0 80px #e8ad5f, 0 0 100px #e8ad5f, 0 0 150px #e8ad5f;
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  
+  
+  
