@@ -124,7 +124,7 @@
 .bg{
     height: 400px;
     width: 100%;
-    background-image: url('./image/slider1.jpg');
+    background-image: url('./images/slider1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }    

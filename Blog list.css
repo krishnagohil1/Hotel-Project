@@ -125,7 +125,7 @@ nav ul li ul li a:hover {
 .bg{
     height: 400px;
     width: 100%;
-    background-image: url('./image/slider1.jpg');
+    background-image: url('./images/slider1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }    
@@ -170,27 +170,7 @@ nav ul li ul li a:hover {
       margin-left: 50px;
   }
  
-  /* .bx4{
-      background-color: #f6ebeb;
-      width: 520px !important;
-      height:180px;
-      box-shadow: 3px 3px 20px   rgba(235, 166, 82,0.09);
-      margin-left: 30px;
-  }
-  .btext12{
-      font-size: 16px;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-weight: 400;
-      color: #6D6D6D;
-      padding-left: 20px;
-      padding-top: 20px;
-      text-align: justify;
- }
-  .btext13{
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      font-style: italic;
-      padding-left: 20px;
-  } */
+ 
   .clarfix{
       display: flex;
       flex-wrap: wrap;
@@ -229,7 +209,7 @@ nav ul li ul li a:hover {
       width: 250px;
       margin-top: 20px;
       margin-left:20px;
-      background-image: url('./image/blog_1.jpg');
+      background-image: url('./images/blog_1.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: scroll;
@@ -240,7 +220,7 @@ nav ul li ul li a:hover {
       width: 250px;
       margin-top: 20px;
       margin-left:20px;
-      background-image: url('./image/blog_2.jpg');
+      background-image: url('./images/blog_2.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: scroll;
