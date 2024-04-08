@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contact</title>
     <!-- css link -->
     <link rel="stylesheet"href="contact.css">
 
@@ -98,23 +98,21 @@
         <div class="col-4  contactbg1">
             <h4 class="ctext2">Get In Touch </h4>
             <P class="ctext3">Maecenas consectetur, diam nec posuere aliquam, libero sapien aliquet lacus, tempus cursus odio dolor ac magna. Nam condimentum nulla et tortor ultrices tempor. Duis ac nisi mattis, vehicula augue id aliquet.</P>
-            <form action="/login">
+            <form action="/login"  onsubmit="submit(event)">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-            
+                <span id="errorname"></span>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
                 <label for="name">Subject:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="sub" name="name" required>
                 <label for="comment">Your Comment:</label>
                 <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
-            
-                <input type="submit" value="Send Message">
+                <button type="submit" class="submit">Submit</button>
         </div>
     </div>
    </div>
    <!-- end -->
-   
 <!-- ======================FOOTER===================== -->
   <!-- ================================================= -->
   <footer id="footer" class="bg-dark text-white py-5"style="margin-top:50px;">
@@ -164,7 +162,15 @@
       <p class="rights">© 2024 Hotel Management. All rights reserved.</p>
     </div>
   </footer>
+  <script>
+    document.getElementById("submitButton").addEventListener("click", function() {
+    var email = document.getElementById("emailInput").value;
+    console.log("Email submitted:", email);
+    document.getElementById("emailInput").value = "";
+  });
+  </script>
     <!-- bootstrap script link -->
+    <script src="./contact.js"></script>
     <script src="Blog list.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>   
 </body>

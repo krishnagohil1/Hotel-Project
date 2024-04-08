@@ -5,6 +5,9 @@
     list-style: none;
     box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+}
 /* navigation start */
 .ocean{
   font-family: cursive;

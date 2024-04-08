@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ocean</title>
+    <title>Restorant</title>
     <link rel="stylesheet" href="./restorantmedia.css">
     <link rel="stylesheet" href="./restorant.css">
 
@@ -86,24 +86,9 @@
 
 
     <!-- hero  -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" >
-          <img src="./images/1.jpg" class="d-block w-100" alt="..." style="height: 550px;">
-        </div>
-        <div class="carousel-item">
-          <img src="./images/2.jpg" class="d-block w-100" alt="..."style="height: 550px;">
-        </div>
-        
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+    <div class="bg">   
+      <P class="btext">Restorent</P>
+      <P class="btext1">HOME <i class="fa-solid fa-greater-than icon"></i> RESTORENT</P>          
     </div>
   
 
@@ -175,7 +160,8 @@
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                    </div>
-                <button class="button">Book Now+</button>
+
+               <a href=""> <button class="button">Book Now+</button></a>
             </div>
             <div class="cost">
                 $49.99
@@ -195,7 +181,7 @@
                     <i class="fa-solid fa-star"></i>
                     <span>(239)</span>
                   </div>
-                <button class="button">Book Now+</button>
+              <a href=""> <button class="button">Book Now+</button></a> 
 
             </div>
             <div class="cost">
@@ -216,7 +202,7 @@
                     <span>(239)</span>
 
                 </div>
-                <button class="button">Book Now+</button>
+              <a href=""> <button class="button">Book Now+</button></a> 
 
             </div>
             <div class="cost">
@@ -237,7 +223,7 @@
                     <span>(239)</span>
 
                 </div>
-                <button class="button">Book Now+</button>
+               <a href=""> <button class="button">Book Now+</button></a>
 
             </div>
             <div class="cost">
@@ -258,7 +244,7 @@
                     <span>(239)</span>
 
                 </div>
-                <button class="button">Book Now+</button>
+               <a href=""> <button class="button">Book Now+</button></a>
 
             </div>
             <div class="cost">
@@ -279,7 +265,7 @@
                     <span>(239)</span>
 
                 </div>
-                <button class="button">Book Now+</button>
+               <a href=""> <button class="button">Book Now+</button></a>
 
             </div>
             <div class="cost">
@@ -291,7 +277,7 @@
 
 
 <!-- start -->
-<div class="container-fluid">
+<div class="container">
   <div class="row" style="margin-bottom: 50px;">
     <div class="col-12">
       <div class="row">
@@ -358,7 +344,14 @@
     <div class="container text-center mt-5">
       <p class="rights">© 2024 Hotel Management. All rights reserved.</p>
     </div>
-  </footer>
+</footer>
+<script>
+  document.getElementById("submitButton").addEventListener("click", function() {
+  var email = document.getElementById("emailInput").value;
+  console.log("Email submitted:", email);
+  document.getElementById("emailInput").value = "";
+});
+</script>
 </body>
 
 <!-- Bootstrap js link -->

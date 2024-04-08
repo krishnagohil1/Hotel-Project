@@ -219,16 +219,14 @@ input[type="text"], input[type="email"], textarea {
     margin-top: 5px;
     margin-left: 20px !important;
     outline: none !important;
-    border: none;
-   
+    border: none;   
 }
 textarea{
     background-color: white;
     border: none;
-    margin-top: 10px !important;
-    
+    margin-top: 10px !important;   
 }
-input[type="submit"] {
+.submit{
     margin-top: 10px;
     padding: 10px;
     background-color:#DBA765;
@@ -239,7 +237,8 @@ input[type="submit"] {
     margin-top: 12px;
     margin-left: 20px;
 }
-input[type="submit"]:hover {
+.submit:hover {
+    transition: 1s;
     background-color: #000000;
 } 
 .form-control1{
@@ -357,7 +356,7 @@ button {
         height: 700px !important;
         margin-top: 20px !important;
     }
-    input[type="submit"]{
+    .submit{
         margin-top: 35px;
     }
     .map{
@@ -379,7 +378,7 @@ button {
         height: 700px !important;
         margin-top: 80px !important;
     }
-    input[type="submit"]{
+    .submit{
         margin-top: 35px;
     }
     .map{
@@ -401,7 +400,8 @@ button {
         height: 720px !important;
         margin-top: 80px !important;
     }
-    input[type="submit"]{
+    .submit{
+      margin-left: 10px;
         margin-top: 35px;
     }
     .map{
@@ -430,7 +430,7 @@ button {
     label{
         margin-left: 10px;
     } 
-    input[type="submit"]{
+    .submit{
         margin-left: 10px;
     }
     .map{

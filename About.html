@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
     <link rel="stylesheet"href="About.css">
      <!-- css link -->
 
@@ -84,7 +84,7 @@
  <P class="atext">ABOUT US</P>
  <h1 class="atext1">Since 8<i class="fa-solid fa-plus icone1" ></i> Years</h1>
  <P class="atext2">Ut condimentum magna ut augue elementum ornare. Fusce posuere massa vitae maximus posuere. Mauris sagittis consectetur vulputate. Curabitur commodo est quis felis porttitor eleifend. Sed efficitur sem mi, et feugiat lorem scelerisque awesome hotel booking website for you.</P>
-<div class="aimage"><div class="button"><i class="fa-solid fa-play icon2"></i></div></div>
+<div class="aimage"><div class="button"><a href="https://cdn.pixabay.com/video/2022/10/16/135141-761273478_large.mp4"><i class="fa-solid fa-play icon2"></i></a></div></div>
 <!-- bg end -->
 <!-- box start -->
 <div class="container-fluid">
@@ -92,7 +92,7 @@
         <div class="col-3 box" > <i class="bi bi-globe icon1"></i><h6 class="atext3" >Best Location</h6><P class="atext4">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod an tempor incididunt</P><div class="overlay"></div></div>
         <div class="col-3 box1" ><i class="bi bi-star icon1"></i><h6 class="atext3">Extra Services</h6><P class="atext4">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod an tempor incididunt</P><div class="overlay"></div></div>
         <div class="col-3 box2" ><i class="bi bi-clock icon1"></i><h6 class="atext3">HOTEL FACILITIES</h6><P class="atext4">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod an tempor incididunt</P><div class="overlay"></div></div>
-        <div class="col-3 box3" >  <i class="bi bi-calendar-day icon1"></i></i><h6 class="atext3" >HOTEL FACILITIES</h6><P class="atext4">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod an tempor incididunt</P><div class="overlay"></div></div>
+        <div class="col-3 box3" ><i class="bi bi-calendar-day icon1"></i></i><h6 class="atext3" >HOTEL FACILITIES</h6><P class="atext4">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod an tempor incididunt</P><div class="overlay"></div></div>
         <div class="col-3 box4" ><i class="bi bi-gift icon1"></i></i><h6 class="atext3">Best Location</h6><P class="atext4">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod an tempor incididunt</P><div class="overlay"></div></div>
         <div class="col-3 box5" ><i class="bi bi-globe icon1"></i><h6 class="atext3">Extra Services</h6><P class="atext4">Lorem ipsum dolor sit amet consec adipiscing elit, sed do eiusmod an tempor incididunt</P><div class="overlay"></div></div>
        </div>
@@ -205,8 +205,8 @@
            accommodations, exceptional amenities.
          </p>
          <div class="contact">
-           <p><i class="bi bi-telephone"></i> +1234567890</p>
-           <p><i class="bi bi-envelope"></i>info@example.com</p>
+           <p><i class="bi bii bi-telephone"></i> +1234567890</p>
+           <p><i class="bi bii bi-envelope"></i>info@example.com</p>
          </div>
        </div>
        <div class="col-lg-4  col-md-6 mb-4 mb-lg-0">
@@ -306,6 +306,15 @@
      }
   });
   
-  })();</script>
+  })();
+
+  document.getElementById("submitButton").addEventListener("click", function() {
+  var email = document.getElementById("emailInput").value;
+  console.log("Email submitted:", email);
+  document.getElementById("emailInput").value = "";
+});
+
+  
+  </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>   
 </html>
