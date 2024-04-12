@@ -5,6 +5,25 @@
 body{
   overflow-x: hidden;
 }
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #DBA765; 
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #e8c494; 
+}
+.text{
+  text-shadow: 2px 2px 2px #DBA765;
+}
 .ocean{
     font-family: cursive;
     color: #e8ad5f !important;
@@ -137,7 +156,7 @@ nav ul {
 .bg{
   height: 400px;
   width: 100%;
-  background-image: url('./images/slider1.jpg');
+  background-image: url('./images/1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }    
@@ -166,28 +185,46 @@ nav ul {
   padding-left: 10px;
   padding-right: 5px;
 }
-/* third stage */
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  /* background-color: DodgerBlue; */
-}
 
-.flex-container > div {
-  /* background-color: #f1f1f1; */
-  width: 600px;
-  line-height: 35px !important;
-  margin: 10px;
+
+
+/* third stage */
+#feautures{
+  padding: 5vw 8vw 0vw 8vw;
   text-align: center;
-  line-height: 75px;
-  font-size: 20px;
+
 }
-.thirdimg{
-  width: 320px;
+#feautures .fea-base{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+  grid-gap: 1rem;
+  margin-top: 50px;
+}
+#feautures .fea-box{
+  background-color:#e8c494;
+  text-align: start;
+}
+#feautures .fea-box i{
+  font-size: 2.3rem;
+  color:#DBA765;
+}
+.setimg{
+  width: 500px;
   height: 400px;
 }
-
+#feautures .fea-box h3{
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #DBA765;
+  padding: 13px 0 7px 0;
+  float: left;
+}
+#feautures .fea-box p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #DBA765;
+ 
+}
 /* button */
 
 button {
@@ -252,4 +289,14 @@ button:hover span:not(:nth-child(6)) {
 }
 .bi:hover{
   color: #e8c494;
+}
+@media screen and (max-width:576px) {
+  .setimg{
+    width: 350px !important;
+  }
+}
+@media screen and (max-width:320px){
+  .setimg{
+    width: 280px !important;
+  }
 }
