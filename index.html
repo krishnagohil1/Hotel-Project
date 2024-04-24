@@ -6,7 +6,10 @@
     <title>ocean</title>
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./indexMedia.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
      <!-- Bootstrap css link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -35,20 +38,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item overdata">
-              <a class="nav-link  text-white" href="#">Home</a>
+              <a class="nav-link  text-white" href="./index.html">Home</a>
             </li>
             <li class="nav-item overdata">
-              <a class="nav-link  text-white" href="#">About Us</a>
+              <a class="nav-link  text-white" href="./About.html">About Us</a>
             </li>
             <li class="nav-item dropdown overdata">
               <a class="nav-link dropdown-toggle  text-white" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Pages
               </a>
               <ul class="dropdown-menu dropdownData" aria-labelledby="aboutDropdown">
-                <li><a class="dropdown-item change_background" href="#">Our Services</a></li>
-                <li><a class="dropdown-item change_background" href="#">Restaurant</a></li>
-                <li><a class="dropdown-item change_background" href="#">SPA</a></li>
-                <li><a class="dropdown-item change_background" href="#">SPA FAQ</a></li>
+                <li><a class="dropdown-item change_background" href="./servicies.html">Our Services</a></li>
+                <li><a class="dropdown-item change_background" href="./restorant.html">Restaurant</a></li>
+                <li><a class="dropdown-item change_background" href="./pricing.html">Pricing</a></li>
+                <li><a class="dropdown-item change_background" href="./ourGallery.html">Our Gellery</a></li>
+                <li><a class="dropdown-item change_background" href="./team - Copy.html">Team</a></li>
+                <li><a class="dropdown-item change_background" href="./spa.html">SPA</a></li>
+                <li><a class="dropdown-item change_background" href="./spafaq.html">SPA FAQ</a></li>
             </ul>
             </li>
             <li class="nav-item dropdown overdata">
@@ -56,8 +62,8 @@
                 Blog
               </a>
               <ul class="dropdown-menu dropdownData" aria-labelledby="blogDropdown">
-                <li><a class="dropdown-item change_background" href="#">Blog</a></li>
-                <li><a class="dropdown-item change_background" href="#">Blog List</a></li>
+                <li><a class="dropdown-item change_background" href="./Blog.html">Blog</a></li>
+                <li><a class="dropdown-item change_background" href="./Blog list.html">Blog List</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown overdata">
@@ -72,14 +78,369 @@
               </ul>
             </li>
             <li class="nav-item overdata">
-              <a class="nav-link  text-white" href="#">Contact</a>
+              <a class="nav-link  text-white" href="./contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-</body>
+    <!-- Hero section -->
+    <!-- ======== -->
+    
+   <!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="Welcome">Welcome to Ocean</h1>
+      <p class="lead mb-4">Experience luxury and comfort like never before.</p>
+      
+    </div>
+  </div>
+</section>
+    <!-- form -->
+    <div class="container"data-aos="zoom-in">
+      <form id="reservationForm" class="row g-3 needs-validation" novalidate>
+        <div class="col-xl-2 col-md-6 col-sm-12">
+          <label for="checkInDate" class="form-label">Check-In Date</label>
+          <input type="date" class="form-control" id="checkInDate" required>
+          <div class="invalid-feedback">Please select a valid check-in date.</div>
+        </div>
+        <div class=" col-xl-2 col-md-6 col-sm-12">
+          <label for="checkOutDate" class="form-label">Check-Out Date</label>
+          <input type="date" class="form-control" id="checkOutDate" required>
+          <div class="invalid-feedback">Please select a valid check-out date.</div>
+        </div>
+        <div class=" col-xl-2 col-md-6 col-sm-12">
+          <label for="children" class="form-label">Children</label>
+          <input type="number" class="form-control" id="children" min="0" value="0">
+        </div>
+        <div class=" col-xl-2 col-md-6 col-sm-12">
+          <label for="adults" class="form-label">Adults</label>
+          <input type="number" class="form-control" id="adults" min="1" value="1" required>
+          <div class="invalid-feedback">Please specify the number of adults.</div>
+        </div>
+        <div class="col-xl-2 col-md-6 col-sm-12">
+          <label for="rooms" class="form-label">Rooms</label>
+          <input type="number" class="form-control" id="rooms" min="1" value="1" required>
+          <div class="invalid-feedback">Please specify the number of rooms.</div>
+        </div>
+        <div class="col-xl-2 col-md-6 col-sm-12 mt-5">
+          <button type="submit" class="submit_button"><a href="">Check Now</a></button>
+        </div>
+      </form>
+    </div>
+    <!-- ========================Extra services======================= -->
+    <!-- ==================================================== -->
+   <div class="container-fuild  d-flex justify-content-evenly">
+    <div class="container mt-5">
+      <div class="row ">
+        <div class="col-lg-6 col-md-12 col-sm-12 mt-3"data-aos="fade-right">
+          <img id="serviceImage" src="./nightclub.jpg" alt="Extra Service Image" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 "data-aos="fade-left">
+          <h1>Extra Services</h1>
+          <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Our Hotel Provide Best Services for You Like A nightclub is an entertainment venue typically open late into the night, offering music, dancing, and drinks for patrons to enjoy. A spa is a facility that offers a variety of health and wellness treatments, often including massages, facials, body scrubs, and other beauty and relaxation services.  A swimming pool is a man-made structure designed for swimming and other water-based activities. A gym for your fitness </p>
+          <button id="changeImageButton" class="change">Change Image</button>
+        </div> 
+      </div>
+    </div>
+  </div>
+<!-- ===========================room================== -->
+<!-- ================================================= -->
+<section id="roomSection" class="container mt-5">
+  <h2 class="text-center text-uppercase ">Our Rooms</h2>
+  <div class="row text-center">
+    <div class="col-md-4"data-aos="zoom-in">
+      <div class=" room-card">
+        <img src="./images/tentroom.jpg" class="card-img-top mt-5 mt-sm-5" alt="Standard Room">
+        <div class="card-body">
+          <h5 class=" setcolor">TENT ROOM</h5>
+          <p class="card-text">Price: $100</p>
+          
+          <a style="color: white;" href="#" class="bookforroom mb-3 mb-sm-5">Book Now</a> 
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"data-aos="zoom-in">
+      <div class=" room-card">
+        <img src="./images/Aparmentroom.jpg" class="card-img-top mt-4 mt-sm-5" alt="Deluxe Room">
+        <div class="card-body">
+          <h5 class="setcolor">AparMent Room</h5>
+          <p class="card-text">Price: $150</p>
+          <a style="color: white;" href="#" class="bookforroom mb-3 mb-sm-5"  >Book Now</a> 
+         
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4"data-aos="zoom-in">
+      <div class=" room-card">
+        <img src="./images/pentroom.jpg" class="card-img-top  mt-1 mt-5" alt="Suite">
+        <div class="card-body">
+          <h5 class="setcolor">Pent Room</h5>
+          <p class="card-text">Price: $250</p>
+          <a style="color: white;" href="#" class="bookforroom mb-3 mb-sm-5"  >Book Now</a> 
+     
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- ========================= FOOD & HEALTH ============== -->
+<!-- ====================================================== -->
+<div class="container-fuild mt-5">
+<div class="container">
+  <div class="row">
+    <div class=" col-xl-6 col-md-12"data-aos="fade-right">
+      <!-- Image column -->
+      <img src="./images/food.jpg" class="img-fluid" alt="Image">
+    </div>
+    <div class=" col-xl-6 col-md-12"data-aos="fade-left">
+      <!-- Content column -->
+        <h2 class="mt-4">Find The Right Hotel For Healthy Food</h2>
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" class="mt-4">We are Provide Many Services But Food Service Enjoy all of people Many people also enjoy delivery services Our Best food is Gujarati Dish is That Dish Only $80.
+          We belive in Best Food Beacuse sometime people don't like eat at home that time our Hotel Provide FOOD for better test of food .
+          We also Make memorable your special day like birthday celebration , Anniversary celebration and any other special day's.
+          We are providing vegetarian food and eggless Food .
+          When you enjoy our food that time our Ocean Hotel Provide Free cake For Customer.
+          i think food is key of happyness .Ocean 
+        </p>
+   
+    </div>
+  </div>
+</div>
+</div>
+<!-- =================== Our Chef  =============== -->
+<!-- ===================================== -->
+<section id="chef-section" style="background-color: whitesmoke; padding: 50px 0;" class="mt-5">
+  <h2 class="text-center text-uppercase">OUR CHEF</h2>
+  <div class="container mt-3">
+      <div class="row">
+          <div class="col-md-4 "data-aos="zoom-in">
+              <div class="chef-image-container">
+                  <img src="./images/first_chef.jpg" alt="Chef 1" class="mb-1 mb-md-4 mb-sm-5"style=" aspect-ratio: 1 / 1;" >
+                  <div class="overlay">
+                      <div class="text">John</div>
+                      <a style="color: white;" href="./firstchef.html" class="bookforroom">View More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4"data-aos="zoom-in">
+              <div class="chef-image-container">
+                  <img src="./images/second_chef.jpg" alt="Chef 2"class="mb-1 mb-md-4 mb-sm-5" style=" aspect-ratio: 1 / 1;">
+                  <div class="overlay">
+                      <div class="text">Maria</div>
+                      <a style="color: white;" href="./thirdchef.html" class="bookforroom">View More</a>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4"data-aos="zoom-in">
+              <div class="chef-image-container">
+                  <img src="./images/third_chef.jpg" alt="Chef 3"class="mb-1 mb-md-4 mb-sm-5"style=" aspect-ratio: 1 / 1;" >
+                  <div class="overlay">
+                      <div class="text">Gordon</div>
+                      <a style="color: white;" href="./secondchef.html" class="bookforroom">View More</a>
+                      
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- ========================WHy us?======================= -->
+    <!-- ==================================================== -->
+    <h3 class="text-center mt-2">Why US?</h3>
+   <div class="container mt-4">
+    <div class="row mt-4">
+      <div class="col-xl-6 col-md-12 col-sm-12 mt-4"data-aos="fade-right">
+        <img src="./images/about.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-xl-6 col-md-12 col-sm-12"data-aos="fade-left">
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+          Ocean Hotel, where every moment is crafted to exceed your expectations. Nestled along the pristine coastline, our hotel offers a plethora of amenities and services designed to make your stay truly unforgettable.
+          Our spacious and elegantly appointed rooms. Each room is meticulously designed to provide a serene oasis, complete with modern amenities and breathtaking views of the ocean.
+          Booking your dream getaway has never been easier! With our user-friendly online booking platform, you can effortlessly reserve your preferred room and plan your stay in just a few clicks.
+          Swimming pool, surrounded by lush greenery and panoramic ocean views. Whether you're seeking relaxation or a leisurely swim, our pool area offers the perfect escape.
+          Maintain your fitness routine while traveling in our state-of-the-art gymnasium. 
+          Dance the night away to the beats of live music or unwind with handcrafted cocktails in a lively atmosphere filled with energy and excitement.
+          Your safety is our top priority.
+          your stay with complimentary high-speed Wi-Fi access available in all areas of the hotel. 
+          Strike a pose and capture Insta-worthy selfies at our designated selfie zones.
+          At Ocean Hotel, we strive to provide an exceptional hospitality experience that exceeds your every expectation. Whether you're here for business or leisure, your journey begins with us. Welcome to a world of luxury, comfort, and unparalleled hospitality at Ocean Hotel.
+
+        </p>
+        
+      </div>
+    </div>
+   </div>
+
+   <!-- ==================text to spech================= -->
+   <!-- ================================================ -->
+   
+   <div class="container mt-5" style="display: block;margin: auto;">
+    <div class="row d-block mx-auto" >
+      <div class="col-md-12 col-sm-12 offset-md-3"data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+        <textarea id="textToSpeak" rows="4" cols="50" placeholder="Text to Speak"></textarea>
+        <button class="speak d-block " onclick="speakText()">Speak</button>
+    </div>
+  </div>
+   </div>
+<!-- ====================iframe========== -->
+<div class="container-fuild mt-5">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="iframe-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14877.469711075995!2d72.8869815!3d21.21727375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1711797228981!5m2!1sen!2sin"  style="border:0;border-radius: 50px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"" title="Responsive Iframe"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ======================FOOTER===================== -->
+ <!-- ================================================= -->
+
+ <footer class="container-fuild footer text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-md-12 col-sm-12">
+            <div class="single-box">
+            <h2>About Us</h2>
+            <p>
+              Welcome to <span style="color: #d19b54;">Ocean</span> , where luxury meets comfort.
+              Nestled in the heart of our city , our hotel offers an unforgettable experience with its elegant
+              accommodations, exceptional amenities.
+            </p>
+            <h3>We Accept</h3>
+            <div class="card-area">
+                <i class="fa-brands  fa-cc-visa"></i>
+                <i class="fa-solid fa-credit-card"></i>
+                <i class="fa-brands fa-cc-mastercard"></i>
+                <i class="fa-brands fa-cc-paypal"></i>
+
+            </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4  col-sm-12">
+            <div class="single-box ">
+              <h2>Hosting</h2>
+              <ul>
+                  <li><a href="#">Web hosting</a></li>
+                  <li><a href="#">Cloud hosting</a></li>
+                 
+                  <li><a href="#">WordPress hosting</a></li>
+                  <li><a href="#">Email hosting</a></li>
+                 
+
+              </ul>
+          </div>
+          </div>
+          <div class="col-xl-2 col-md-3  col-sm-12">
+            <div class="single-box ">
+              <h2>Section</h2>
+              <ul >
+                  <li><a href="#Home">Home</a></li>
+                  <li><a href="#Rooms & Suites">Rooms</a></li>
+                  <li><a href="#Services">Services</a></li>
+                  <li><a href="#Contact">Contact</a></li> 
+              </ul>
+          </div>
+          </div>
+          <div class="col-xl-4 col-md-5  col-sm-12">
+            <div class="single-box">
+              <h2>NewsLetter</h2>
+              <p>Our hotel offers an unforgettable experience with its elegant
+                  accommodations, exceptional amenities.</p>
+              <div class="input-group mb-3">
+                  <input type="url"  id="emailInput" name="email" class="form-control1" placeholder="Enter your email">
+                  <button type="submit" class="submit">Submit</button>
+               </div>
+              <h2>Follow Us On</h2>
+              <p class="socials">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-solid fa-basketball"></i>
+                  <i class="fa-brands fa-pinterest-p"></i>
+                  <i class="fa-brands fa-twitter"></i>
+              </p>   
+          </div>
+          </div>
+        </div>
+      </div><br><hr>
+ </footer>
+</body>
+<script>
+  document.getElementById("submitButton").addEventListener("click", function() {
+  var email = document.getElementById("emailInput").value;+
+  console.log("Email submitted:", email);
+  document.getElementById("emailInput").value = "";
+});
+
+</script>
+<!-- aos  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+document.getElementById("changeImageButton").addEventListener("click", function() {
+  // Get a reference to the image element
+  var imageElement = document.getElementById("serviceImage");
+  
+  // Array of image URLs for extra services
+  var serviceImages = [
+    "spa.jpg",
+    "phool.jpg",
+    "gym.jpg"
+  ];
+  
+  // Randomly select an image URL from the array
+  var randomIndex = Math.floor(Math.random() * serviceImages.length);
+  var randomImageUrl = serviceImages[randomIndex];
+  
+  // Change the src attribute of the image element to the randomly selected image URL
+  imageElement.src = randomImageUrl;
+
+
+  //text to speech
+  function speakText() {
+    const text = document.getElementById('text-area').value;
+    // Check if the browser supports speech synthesis
+    if ('speechSynthesis' in window) {
+      // Create a new SpeechSynthesisUtterance object
+      const utterance = new SpeechSynthesisUtterance(text);
+      // Speak the text
+      speechSynthesis.speak(utterance);
+    } else {
+      // If speech synthesis is not supported, alert the user
+      alert('Sorry, your browser does not support text-to-speech functionality.');
+    }
+  }
+
+  // Event listener for the Speak button
+  document.getElementById('speak_btn').addEventListener('click', speakText);
+});
+function speakText() {
+      // Retrieve the text from the textarea
+      var text = document.getElementById("textToSpeak").value;
+
+      // Check if the browser supports speech synthesis
+      if ('speechSynthesis' in window) {
+        // Create a new SpeechSynthesisUtterance object
+        var msg = new SpeechSynthesisUtterance();
+
+        // Set the text to be spoken
+        msg.text = text;
+
+        // Call the speech synthesis API to speak the text
+        window.speechSynthesis.speak(msg);
+      } else {
+        // Speech synthesis not supported, provide fallback or error message
+        console.log('Speech synthesis not supported in this browser');
+      }
+    }
+</script>
 <!-- Bootstrap js link -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="./index.js"></script>

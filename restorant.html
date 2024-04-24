@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restorant</title>
+    <link rel="stylesheet" href="./restorantmedia.css">
+    <link rel="stylesheet" href="./restorant.css">
+<!-- aos -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- Bootstrap css link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<!-- 
+- google font link
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+<!-- font awsome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- ==============navigation==================== -->
+    <!-- ============================================= -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <div class="container">
+        <div class="text-container">
+        <a class="navbar-brand ocean animated-text" >ocean</a>
+      </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <i class="fa-solid  mt-3 fa-bars-staggered navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item overdata">
+              <a class="nav-link  text-white" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item overdata">
+              <a class="nav-link  text-white" href="./About.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown overdata">
+              <a class="nav-link dropdown-toggle  text-white" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Pages
+              </a>
+              <ul class="dropdown-menu dropdownData" aria-labelledby="aboutDropdown">
+                <li><a class="dropdown-item change_background" href="./servicies.html">Our Services</a></li>
+                <li><a class="dropdown-item change_background" href="./restorant.html">Restaurant</a></li>
+                <li><a class="dropdown-item change_background" href="./pricing.html">Pricing</a></li>
+                <li><a class="dropdown-item change_background" href="./ourGallery.html">Our Gellery</a></li>
+                  <li><a class="dropdown-item change_background" href="./team - Copy.html">Team</a></li>
+                <li><a class="dropdown-item change_background" href="./spa.html">SPA</a></li>
+                <li><a class="dropdown-item change_background" href="./spafaq.html">SPA FAQ</a></li>
+            </ul>
+            </li>
+            <li class="nav-item dropdown overdata">
+              <a class="nav-link dropdown-toggle  text-white" href="#" id="blogDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu dropdownData" aria-labelledby="blogDropdown">
+                <li><a class="dropdown-item change_background" href="./Blog.html">Blog</a></li>
+                <li><a class="dropdown-item change_background" href="./Blog list.html">Blog List</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown overdata">
+              <a class="nav-link dropdown-toggle  text-white" href="#" id="roomsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Rooms & Suites
+              </a>
+              <ul class="dropdown-menu dropdownData" aria-labelledby="roomsDropdown">
+                <li><a class="dropdown-item change_background" href="#">Tent</a></li>
+                <li><a class="dropdown-item change_background" href="#">AparMent</a></li>
+                <li><a class="dropdown-item change_background" href="#">Villa House</a></li>
+                <li><a class="dropdown-item change_background" href="#">Pent House</a></li>
+              </ul>
+            </li>
+            <li class="nav-item overdata">
+              <a class="nav-link  text-white" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- hero  -->
+    <div class="bg">   
+      <P class="btext">Restaurant</P>
+      <P class="btext1">HOME <i class="fa-solid fa-greater-than icon"></i> Restaurant</P>          
+    </div>
+  
+
+    <section class = "banner"data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+      <h1>BOOK YOUR TABLE NOW</h1>
+      <div class = "card-container">
+          <div class = "card-img">
+              <!-- image here -->
+          </div>
+
+          <div class = "card-content">
+              <h3>Reservation</h3>
+              <form>
+                  <div class = "form-row">
+                      <select name = "days">
+                          <option value = "day-select">Select Day</option>
+                          <option value = "sunday">Sunday</option>
+                          <option value = "monday">Monday</option>
+                          <option value = "tuesday">Tuesday</option>
+                          <option value = "wednesday">Wednesday</option>
+                          <option value = "thursday">Thursday</option>
+                          <option value = "friday">Friday</option>
+                          <option value = "saturday">Saturday</option>
+                      </select>
+
+                      <select name = "hours">
+                          <option value = "hour-select">Select Hour</option>
+                          <option value = "10">10:00 PM</option>
+                          <option value = "10">11:00 AM</option>
+                          <option value = "10">12:00 PM</option>
+                          <option value = "10">1:00 AM</option>
+                          <option value = "10">2:00 AM</option>
+                          <option value = "10">3:00 AM</option>
+                          <option value = "10">4:00 AM</option>
+                          <option value = "10">5:00 AM</option>
+                      </select>
+                  </div>
+
+
+                   <div class="form-row">
+                    <input type="date" 
+                    value="date"/>
+                   </div>
+
+                  <div class = "form-row">
+                      <input type = "text" placeholder="Full Name">
+                      <input type = "text" placeholder="Phone Number">
+                      
+                  </div>
+
+                  <div class = "form-row">
+                      <input type = "number" placeholder="How Many Persons?" min = "1">
+                      <input type = "submit" value = "BOOK TABLE">
+                  </div>
+              </form>
+          </div>
+      </div>
+  </section>
+
+
+
+
+  
+<!-- =================== Our Chef  =============== -->
+<!-- ===================================== -->
+<section id="chef-section" style="background-color: whitesmoke; padding: 50px 0;" class="mt-5">
+  <h2 class="text-center text-uppercase">OUR CHEF</h2>
+  <div class="container mt-3">
+    <div data-aos="zoom-in" style="transition: 2s;">
+
+      <div class="row">
+       
+          <div class="col-md-4 ">
+              <div class="chef-image-container">
+                  <img src="./images/first_chef.jpg" alt="Chef 1" class="mb-1 mb-md-4 mb-sm-5" >
+                  <div class="overlay">
+                      <div class="text">John</div>
+                      <a style="color: white;" href="./firstchef.html" class="bookforroom">View More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="chef-image-container">
+                  <img src="./images/third_chef.jpg" alt="Chef 2"class="mb-1 mb-md-4 mb-sm-5" >
+                  <div class="overlay">
+                      <div class="text">Maria</div>
+                      <a style="color: white;" href="./secondchef.html" class="bookforroom">View More</a>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="chef-image-container">
+                  <img src="./images/second_chef.jpg" alt="Chef 3"class="mb-1 mb-md-4 mb-sm-5" >
+                  <div class="overlay">
+                      <div class="text">Gordon</div>
+                      <a style="color: white;" href="./thirdchef.html" class="bookforroom">View More</a>
+                  </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- start -->
+<div class="container">
+  <div class="row" style="margin-bottom: 50px;">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-2 icon8"><img src="./images/brand1.png"></div>
+         <div class="col-2 icon10"><img src="./images/brand4.png"></div>
+        <div class="col-2 icon9"><img src="./images/brand6.png"></div>
+        <div class="col-2 icon9"><img src="./images/brand7.png"></div>
+      </div>
+    </div>
+</div>
+</div>
+  
+
+
+
+
+
+
+<!-- ======================FOOTER===================== -->
+  <!-- ================================================= -->
+
+
+
+ <footer class="container-fuild footer text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-4 col-md-12 col-sm-12">
+        <div class="single-box">
+        <h2>About Us</h2>
+        <p>
+          Welcome to <span style="color: #d19b54;">Ocean</span> , where luxury meets comfort.
+          Nestled in the heart of our city , our hotel offers an unforgettable experience with its elegant
+          accommodations, exceptional amenities.
+        </p>
+        <h3>We Accept</h3>
+        <div class="card-area">
+            <i class="fa-brands  fa-cc-visa"></i>
+            <i class="fa-solid fa-credit-card"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+
+        </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-md-4  col-sm-12">
+        <div class="single-box ">
+          <h2>Hosting</h2>
+          <ul>
+              <li><a href="#">Web hosting</a></li>
+              <li><a href="#">Cloud hosting</a></li>
+             
+              <li><a href="#">WordPress hosting</a></li>
+              <li><a href="#">Email hosting</a></li>
+             
+
+          </ul>
+      </div>
+      </div>
+      <div class="col-xl-2 col-md-3  col-sm-12">
+        <div class="single-box ">
+          <h2>Section</h2>
+          <ul >
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Rooms & Suites">Rooms</a></li>
+              <li><a href="#Services">Services</a></li>
+              <li><a href="#Contact">Contact</a></li> 
+          </ul>
+      </div>
+      </div>
+      <div class="col-xl-4 col-md-5  col-sm-12">
+        <div class="single-box">
+          <h2>NewsLetter</h2>
+          <p>Our hotel offers an unforgettable experience with its elegant
+              accommodations, exceptional amenities.</p>
+          <div class="input-group mb-3">
+              <input type="url"  id="emailInput" name="email" class="form-control1" placeholder="Enter your email">
+              <button type="submit" class="submit">Submit</button>
+           </div>
+          <h2>Follow Us On</h2>
+          <p class="socials">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-solid fa-basketball"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+              <i class="fa-brands fa-twitter"></i>
+          </p>   
+      </div>
+      </div>
+    </div>
+  </div><br><hr>
+ </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+<!-- Bootstrap js link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
