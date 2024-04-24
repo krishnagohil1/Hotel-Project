@@ -259,7 +259,14 @@ font-family: sans-serif;
 .bu:hover{
   background-color: black;
 }
-
+.bi-stopwatch {
+  margin-left: 30px !important;
+}
+.t{
+  margin-top: -25px;
+  margin-left: 60px !important;
+  font-family: 'Times New Roman', Times, serif;
+}
   /* icon end*  */ 
 .icon8{
   margin-top: 80px !important;
@@ -838,8 +845,11 @@ text-align: center;
       padding-top: 10px !important;
       padding-left: 10px !important;
   }
-  .bu{
-      margin-left: 10px;
+  .bi-stopwatch{
+    margin-left: 10px !important;
+  }
+  .t{
+    margin-left:35px !important;
   }
   
 
@@ -910,8 +920,11 @@ text-align: center;
       padding-top: 10px !important;
       padding-left: 10px !important;
   }
-  .bu{
-      margin-left: 10px;
+  .bi-stopwatch{
+    margin-left: 10px !important;
+  }
+  .t{
+    margin-left:35px !important;
   }
 
 }
