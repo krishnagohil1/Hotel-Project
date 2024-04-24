@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog List</title>
+<<<<<<< HEAD
+=======
     <!-- css link -->
+>>>>>>> 364163e96dc9c55721daf7db964b34fa63c2cfaa
     <link rel="stylesheet"href="Blog list.css">
   <!-- aos -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -44,11 +47,17 @@
               Pages
             </a>
             <ul class="dropdown-menu dropdownData" aria-labelledby="aboutDropdown">
+<<<<<<< HEAD
+              <li><a class="dropdown-item change_background" href="#">Our Services</a></li>
+              <li><a class="dropdown-item change_background" href="./restorant.html">Restaurant</a></li>
+              <li><a class="dropdown-item change_background" href="./pricing.html">Pricing</a></li>
+=======
               <li><a class="dropdown-item change_background" href="./servicies.html">Our Services</a></li>
               <li><a class="dropdown-item change_background" href="./restorant.html">Restaurant</a></li>
               <li><a class="dropdown-item change_background" href="./pricing.html">Pricing</a></li>
               <li><a class="dropdown-item change_background" href="./ourGallery.html">Our Gellery</a></li>
               <li><a class="dropdown-item change_background" href="./team - Copy.html">Team</a></li>
+>>>>>>> 364163e96dc9c55721daf7db964b34fa63c2cfaa
               <li><a class="dropdown-item change_background" href="./spa.html">SPA</a></li>
               <li><a class="dropdown-item change_background" href="./spafaq.html">SPA FAQ</a></li>
           </ul>
@@ -251,6 +260,13 @@
       </div>
     </div><br><hr>
   </footer>
+  <script>
+    document.getElementById("submitButton").addEventListener("click", function() {
+    var email = document.getElementById("emailInput").value;
+    console.log("Email submitted:", email);
+    document.getElementById("emailInput").value = "";
+  });
+  </script>
 </body>
 <!-- bootstrap script link -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>   

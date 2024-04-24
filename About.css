@@ -660,6 +660,23 @@ font-family: 'Times New Roman', Times, serif;
 padding-top: 5px;
 }
 .icon11{
+<<<<<<< HEAD
+  color:#DBA765;
+}
+.bii{
+  color: white !important;
+  font-size: 20px !important;
+  padding: 2px !important;
+} 
+.bii:hover{
+  color: #e8c494 !important ;
+}
+.atext16{
+  color: black;
+  margin-top: 20px !important;
+  font-style: normal !important;
+  /* font-size: 13px; */
+=======
 color:#DBA765;
 
 }
@@ -668,6 +685,7 @@ color: black;
 margin-top: 20px !important;
 font-style: normal !important;
 font-size: 13px;
+>>>>>>> 364163e96dc9c55721daf7db964b34fa63c2cfaa
 }
 /* end */
 /* start */
@@ -835,7 +853,33 @@ color: #d19b54;
     margin-bottom: 50px;
 
 }
+<<<<<<< HEAD
+
+button span:nth-child(3) {
+  transform: translate(-.2em, 1.8em);
 }
+
+button span:nth-child(4) {
+  transform: translate(3.5em, 1.4em);
+}
+
+button span:nth-child(5) {
+  transform: translate(3.5em, -3.8em);
+}
+
+button:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
+}
+.list-unstyled li a:hover{
+  color: #e8c494;
+  text-decoration-color:#e8c494 ;
+}
+
+
+=======
+}
+>>>>>>> 364163e96dc9c55721daf7db964b34fa63c2cfaa
 @media screen and (max-width: 1440px){
   .atext{
       font-size: 18px !important;
