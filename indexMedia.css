@@ -1,0 +1,417 @@
+@media screen and (max-width: 1440px){
+
+  .atext5{
+    padding-left: 620px !important;
+  }
+  .atext6{
+    padding-left: 400px !important;
+  }
+  .atext7{
+    padding-left: 500px !important;
+  }
+  .ic1{
+    margin-left: 16px !important;
+  }
+  .ic2{
+    margin-left: 16px !important;
+  }
+  .ic3{
+    margin-left: 16px !important;
+  }
+  .ic4{
+    margin-left: 16px !important;
+  }
+  .ic5{
+    margin-left: 16px !important;
+  }
+  .client{
+    margin-left: 250px !important;
+  }
+}
+@media screen  and (max-width:1024px){
+
+.atext5{
+ padding-left:420px !important;
+}
+.atext6{
+ padding-left:200px !important;
+}
+.atext7{
+ padding-left: 230px !important;
+ padding-right: 200px !important;
+}
+.ic{
+ margin-left: 120px !important;
+ width: 125px !important;
+}
+.ic1{
+ margin-left: 10px !important;
+ width: 125px !important;
+}
+.ic2{
+ margin-left: 10px !important;
+ width: 125px !important;
+}
+.ic3{
+ margin-left: 10px !important;
+ width: 120px !important;
+}
+.ic4{
+ margin-left: 10px !important;
+ width: 125px !important;
+}
+.ic5{
+ margin-left: 10px !important;
+ width: 125px !important;
+}
+.icon8{
+margin-top: 80px !important;
+margin-left:40px;
+}
+.icon9{
+margin-left: 10px;
+}
+.client{
+margin-left: 30px !important;
+}
+.atext17{
+padding-left: 430px;
+}
+.atext18{
+padding-left: 350px !important;
+}
+.service1{
+margin-left: 20px !important;
+}
+.atext10{
+font-size: 30px !important;
+}
+.atext11{
+font-size:15px !important;
+}
+.atext12{
+font-size:15px !important;
+}
+.bi-telephone{
+font-size: 35px;
+}
+.atext13{
+font-size:15px !important;
+}
+.atext14{
+font-size:15px !important;
+}
+
+}
+@media screen  and (max-width:768px){
+
+  .atext5{
+    padding-left:300px !important;
+  }
+  .atext6{
+    padding-left: 120px !important;
+    font-size: 32px !important;
+  }
+  .atext7{
+    padding-left: 230px !important;
+    padding-right: 200px !important;
+  }
+  .ic{
+    margin-left: 70px !important;
+    width: 640px !important;
+  }
+  .ic1{
+    margin-left: 70px !important;
+    width: 640px !important;
+    margin-top: 0;
+  }
+  .ic2{
+    margin-left: 70px !important;
+    width: 640px !important;
+    margin-top: 0;
+  }
+  .ic3{
+    margin-left: 70px !important;
+    width: 640px !important;
+    margin-top: 0;
+  }
+  .ic4{
+    margin-left: 70px !important;
+    width: 640px !important;
+    margin-top: 0;
+  }
+  .ic5{
+    margin-left: 70px !important;
+    width: 640px !important;
+    margin-top: 0;
+  }
+  .icon8{
+    margin-top: 80px !important;
+    margin-left:50px !important;
+  }
+  .icon10{
+    margin-left: 150px !important;
+  }
+  .icon9{
+    display: none;
+ }
+  .client{
+  margin-left: 70px !important;
+}
+.client2{
+  display: none;
+}
+.atext17{
+  padding-left: 280px;
+}
+.atext18{
+  padding-left: 200px !important;
+}
+.service{
+  height: 880px !important;
+ }
+ .service1{
+  margin-left: 40px !important;
+  width: 650px !important;
+  margin-top: 50px !important;
+ 
+  height: 350px;
+}
+.service2{
+  width:350px;
+  margin-top:0px !important;
+}
+.service3{
+  width:350px;
+  margin-top:0px !important;
+  margin-left: 60px !important;
+
+}
+.atext10{
+  font-size: 40px !important;
+}
+.atext11{
+  font-size:18px !important;
+}
+.atext12{
+  font-size:18px !important;
+}
+.bi-telephone{
+  font-size:40px;
+}
+.atext13{
+  font-size:18px !important;
+}
+.atext14{
+  font-size:18px !important;
+}
+}
+@media screen  and (max-width:430px){
+
+ .atext5{
+    padding-left:120px !important;
+  }
+  .atext6{
+    padding-left:10px !important;
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .atext7{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+  .ic{
+    margin-left: 20px !important;
+    width: 385px !important;
+  }
+  .ic1{
+    margin-left: 20px !important;
+    width: 385px !important;
+    margin-top: 0;
+  }
+  .ic2{
+    margin-left: 20px !important;
+    width: 385px !important;
+    margin-top: 0;
+  }
+  .ic3{
+    margin-left: 20px !important;
+    width: 385px !important;
+    margin-top: 0;
+  }
+  .ic4{
+    margin-left: 20px !important;
+    width: 385px !important;
+    margin-top: 0;
+  }
+  .ic5{
+    margin-left: 20px !important;
+    width: 385px !important;
+    margin-top: 0;
+  }
+  .icon8{
+    display: none !important;
+   }
+   .icon9{
+     display: none !important;
+   }
+   .icon10{
+      display: none !important;
+   }
+    .client{
+  margin-left: 60px !important;
+}
+.client1{
+  display: none;
+}
+.client2{
+  display: none;
+}
+.atext17{
+  padding-left: 120px;
+  font-size: 15px;
+}
+.atext18{
+  padding-left: 80px !important;
+  font-size: 25px;
+  margin-top: -10px !important;
+}
+.service1{
+  width: 350px !important;
+ }
+ .service3{
+ display: none;
+}
+.service2{
+margin-top: 50px !important;
+}
+
+}
+@media screen  and (max-width:380px){
+  
+ .atext5{
+    padding-left:90px !important;
+  }
+  .atext6{
+    padding-left:10px !important;
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .atext7{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+  .ic{
+    margin-left: 20px !important;
+    width: 340px !important;
+  }
+  .ic1{
+    margin-left: 20px !important;
+    width: 340px !important;
+    margin-top: 0;
+  }
+  .ic2{
+    margin-left: 20px !important;
+    width: 340px !important;
+    margin-top: 0;
+  }
+  .ic3{
+    margin-left: 20px !important;
+    width: 340px !important;
+    margin-top: 0;
+  }
+  .ic4{
+    margin-left: 20px !important;
+    width: 340px !important;
+    margin-top: 0;
+  }
+  .ic5{
+    margin-left: 20px !important;
+    width: 340px !important;
+    margin-top: 0;
+  }
+  .icon8{
+   display: none !important;
+  }
+  .icon9{
+    display: none !important;
+  }
+  .icon10{
+     display: none !important;
+  }
+   .client{
+    margin-left: 30px !important;
+  }
+  .atext17{
+    padding-left: 100px;
+    font-size: 15px;
+  }
+  .atext18{
+    padding-left: 60px !important;
+    font-size: 25px;
+    margin-top: -10px !important;
+  }
+  
+}
+@media screen  and (max-width:320px){
+
+ .atext5{
+    padding-left:60px !important;
+  }
+  .atext6{
+    padding-left:20px !important;
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .atext7{
+    padding-left:20px !important;
+    padding-right:20px !important;
+  }
+  .ic{
+    margin-left: 20px !important;
+    width: 280px !important;
+  }
+  .ic1{
+    margin-left: 20px !important;
+    width: 280px !important;
+    margin-top: 0;
+  }
+  .ic2{
+    margin-left: 20px !important;
+    width: 280px !important;
+    margin-top: 0;
+  }
+  .ic3{
+    margin-left: 20px !important;
+    width: 280px !important;
+    margin-top: 0;
+  }
+  .ic4{
+    margin-left: 20px !important;
+    width: 280px !important;
+    margin-top: 0;
+  }
+  .ic5{
+    margin-left: 20px !important;
+    width: 280px !important;
+    margin-top: 0;
+  }
+  .client{
+    margin-left: 8px !important;
+}
+.atext17{
+padding-left:80px;
+font-size: 15px;
+}
+.atext18{
+padding-left: 40px !important;
+font-size: 23px;
+margin-top: -10px !important;
+}
+.service1{
+margin-left: 20px !important;
+}
+.service2{
+margin-left: 20px;
+}
+}
